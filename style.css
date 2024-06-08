@@ -1,0 +1,118 @@
+/* سبک‌دهی عمومی */
+body {
+    color: #263238;
+    font-family: B Yekan;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('background\ 3\ with\ text.jpg');
+    background-size: cover;
+}
+
+/* سبک‌دهی فرم‌ها */
+form {
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to left,#f8b8b6,transparent,#bde2dc);
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px -20px;
+}
+.ProductForm {
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to left,#f8b8b6,transparent,#bde2dc);
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px -20px;
+}
+.ProductItem {
+    display: flex;
+    align-items: start;
+    direction: rtl;
+}
+.ProductItem div input{
+    width: 250px;
+}
+.ProductItem div {
+    margin: 30px;
+    text-align: start;
+}
+.productImg {
+    width: 25%;
+    height: 30%;
+    border-radius: 10px;
+    border-color: #26323871;
+    border-width: 5px;
+    border-style: groove;
+    box-shadow: 10px 10px 30px -10px#263238;
+}
+/* سبک‌دهی فیلدها و دکمه‌ها */
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ECEFF1;
+    box-shadow: 0 0 10px -10px #263238;
+}
+
+input[type="submit"] {
+    width: 40%;
+    background-color: #00E676;
+    box-shadow: 0 0 20px -10px black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: B yekan;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    background-color: #00E5FF;
+    transform: scale(1.1);
+}
+input[type="file"] {
+    width: 60%;
+    margin: 10px;
+    background-color: #0096a765;
+    box-shadow: 0 0 20px -10px black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: B yekan;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+textarea{
+    height: 100px;
+}
+
+/* سبک‌دهی به عنوان‌ها */
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* سبک‌دهی به متن‌ها */
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.comment h3,p{
+    text-align: right;
+}
